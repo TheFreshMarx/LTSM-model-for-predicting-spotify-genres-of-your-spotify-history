@@ -6,7 +6,8 @@ This repository contains an LSTM (Long Short-Term Memory) neural network built t
 ## Methodology
 
 ### 1. Data Preprocessing & Missing Label Imputation
-One of the primary challenges with the initial dataset was a subset of unclassified songs missing their genre labels. To resolve this, a small LLM (Large Language Model) was utilized to analyze the available song metadata/lyrics and accurately classify the previously unclassified tracks. This enriched the corpus and provided a robust, complete dataset for the neural network.
+One of the primary challenges with the initial dataset was a subset of unclassified songs missing their genre labels. The daaset has been gathered from spotify directly and then modified using a duckdb database on my compuetr since my ram couldn't handle all of them togheter. Then the unclassified songs issue was solved with a small LLM (Large Language Model) was utilized to analyze the available song metadata/lyrics and accurately classify the previously unclassified tracks. This enriched the corpus and provided a robust, complete dataset for the neural network.
+
 
 ### 2. Model Building
 The predictive model is based on an LSTM architecture, well-suited for sequential data. It was implemented in R, taking advantage of deep learning libraries available within the R ecosystem. 
