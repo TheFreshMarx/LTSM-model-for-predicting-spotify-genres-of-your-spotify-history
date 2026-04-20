@@ -25,6 +25,9 @@ Various model configurations and settings were tested to find the optimal archit
 ## Results
 After extensive tuning and experimentation, the final LSTM model achieved a **Top-5 Accuracy of 80% (0.80)**. This means that for any given song, the model's top 5 predicted genres contain the correct genre 80% of the time.
 
+![alt text](https://github.com/TheFreshMarx/LTSM-model-for-predicting-spotify-genres-of-your-spotify-history/blob/main/best%20model%20training.png?raw=true)
+
+
 ## Technologies Used
 * **Language:** R
 * **Environment:** RStudio
