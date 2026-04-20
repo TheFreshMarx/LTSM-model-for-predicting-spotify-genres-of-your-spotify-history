@@ -10,7 +10,7 @@ When you download the dataset from spotify, youb will have different files with 
 The files will have to be organized deleting various rows that are not needed and you will also need to get the genre of the artist using the spotify API.
 i used duckdb to organize all of the files but you don't need to do that. 
 
-One of the primary challenges with the initial dataset was a subset of unclassified songs missing their genre labels. The dataset has been gathered from spotify directly and then modified using a duckdb database on my compuetr since my ram couldn't handle all of them togheter. Then the unclassified songs issue was solved with a small LLM (Large Language Model) was utilized to analyze the available song metadata/lyrics and accurately classify the previously unclassified tracks. This enriched the corpus and provided a robust, complete dataset for the neural network.
+One of the primary challenges with the initial dataset was a subset of unclassified songs missing their genre labels. Then the issue was solved with a small LLM (Large Language Model) was utilized to analyze the available song metadata/lyrics and accurately classify the previously unclassified tracks. This enriched the corpus and provided a robust, complete dataset for the neural network.
 
 
 ### 2. Model Building
